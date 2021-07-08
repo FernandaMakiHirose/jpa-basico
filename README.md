@@ -6,7 +6,6 @@
 - Terceira parte: 1) Crie uma consulta SQL e execute diretamente no Banco de Dados. 2) Realize a mesma consulta realizada no passo 1, porém no JPQL e execute na sua aplicação JPA. 3) Realize a mesma consulta realizada no passo 1, porém com o JPA Criteria API e execute na sua aplicação JPA.
 
 ## Passos iniciais
-As seguintes instruções irão criar uma cópia do projeto na sua máquina local para realizar os testes executados em aula.
 
 ### Pré requisitos usados em aula
 - Java Development Kit (JDK) – 1.8 ou superior
