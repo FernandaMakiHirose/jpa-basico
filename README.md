@@ -7,7 +7,7 @@
 
 ## Passos iniciais
 
-### Pré requisitos usados em aula
+### Pré-requisitos 
 - Java Development Kit (JDK) – 1.8 ou superior
 - IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra)
 - Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven)
