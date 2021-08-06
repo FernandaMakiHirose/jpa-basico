@@ -1,8 +1,8 @@
 # Trabalhando com banco de dados usando JPA
-1- Realizar download do JPA (Java Persistence API) e do driver JDBC para o BC MySQL. 
-2- Criar o arquivo persistence.xml e configurar os seguintes parâmetros: URL da string de conexão (driver, endereço do BD e nome do BD), usuário do BD, senha do BD, driver e classes que serão mapeadas para serem usadas pelo JPA. 
-3- Utilizar as annotations nas classes que serão mapeadas para uso do Hibernate. 
-4- Configurar o entityManager.
+1- Realizar download do JPA (Java Persistence API) e do driver JDBC para o BC MySQL. <br>
+2- Criar o arquivo persistence.xml e configurar os seguintes parâmetros: URL da string de conexão (driver, endereço do BD e nome do BD), usuário do BD, senha do BD, driver e classes que serão mapeadas para serem usadas pelo JPA. <br>
+3- Utilizar as annotations nas classes que serão mapeadas para uso do Hibernate. <br>
+4- Configurar o entityManager. <br>
 
 ## Passos iniciais
 
