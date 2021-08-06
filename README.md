@@ -1,9 +1,8 @@
 # Trabalhando com banco de dados usando JPA
-- No arquivo persistent.xml apresenta configurações específicas do Hibernate. <br>
-- No arquivo build.gradle estão as dependências necessárias para os projetos. <br>
-- Primeira parte: cria um gerenciador de entidades com o banco de dados. A IDE irá validar as annotations porque foi utilizada a API do JPA. Porém o código não executará, pois não foi utilizada nenhuma API de implementação do JPA, e sim apenas API com as especificações.<br>
-- Segunda parte: 1) Configure a aplicação desenvolvida com JPA na parte 1 para utilizar o Hibernate. 2) Configure a aplicação desenvolvida com JPA na parte 1 para utilizar o EclipseLink. <br>
-- Terceira parte: 1) Crie uma consulta SQL e execute diretamente no Banco de Dados. 2) Realize a mesma consulta realizada no passo 1, porém no JPQL e execute na sua aplicação JPA. 3) Realize a mesma consulta realizada no passo 1, porém com o JPA Criteria API e execute na sua aplicação JPA.
+1- Realizar download do JPA (Java Persistence API) e do driver JDBC para o BC MySQL. 
+2- Criar o arquivo persistence.xml e configurar os seguintes parâmetros: URL da string de conexão (driver, endereço do BD e nome do BD), usuário do BD, senha do BD, driver e classes que serão mapeadas para serem usadas pelo JPA. 
+3- Utilizar as annotations nas classes que serão mapeadas para uso do Hibernate. 
+4- Configurar o entityManager.
 
 ## Passos iniciais
 
