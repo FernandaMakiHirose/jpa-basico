@@ -28,5 +28,5 @@ Com os pré requisitos instalados, basta baixar esse projeto no seu IDE (atravé
 Basta rodar a função "main" da classe compilada de uma das seguintes classes:
 
 - <a href="https:"https://github.com/FernandaMakiHirose/jpa-basico/blob/main/src/main/java/part1/ExecutionPart1.java">ExecutionPart1.java.</a>
-- <a href="https://github.com/danielkv7/jpa-basico/blob/master/src/main/java/part2/ExecutionPart2.java">ExecutionPart2.java.</a>
+- <a href="https://github.com/FernandaMakiHirose/jpa-basico/blob/main/src/main/java/part2/ExecutionPart2.java">ExecutionPart2.java.</a>
 - <a href="https://github.com/danielkv7/jpa-basico/blob/master/src/main/java/part3/ExecutionPart3.java">ExecutionPart3.java.</a>
