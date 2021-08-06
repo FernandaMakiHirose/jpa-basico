@@ -4,6 +4,15 @@
 3- Utilizar as annotations nas classes que serão mapeadas para uso do Hibernate. <br>
 4- Configurar o entityManager (no arquivo ExecutionPart1). <br>
 
+## Entendendo o JPA
+Entre os principais artefatos do JPA, podem ser destacados:
+- Anotações `@Entity` - indica a aplicação que os objetos da classe especificada serão persistidos no banco de dados. Também podem ser usadas outras anotações para auxiliar no mapeamento de classes, tais como: @id, @column, @table, @OneToMany e @ManyToOne. 
+- Interface `EntityManager` - é utilizada para gerenciar o ciclo de vida das entidades. Os principais métodos utilizados são: find, persist e remove. 
+- As principais anotações utilizadas junto com o annotation `@Entity` são:
+- `@Table`. É opcional, por padrão o nome da entidade é usado para realizar o mapeamento com o nome da tabela no banco de dados. Ela é necessária caso o nome da entidade seja diferente do nome da tabela no banco de dados. 
+- `Column`. É opcional, por padrão o atributo da entidade é usado para realizar o mapeamento com o nome da coluna de banco de dados. Ela é necessária caso os atributos da entidade sejam diferentes das colunas do banco de dados. 
+- `@Id` é obrigatório especificar ao menos uma ID para a entidade. 
+
 ## Passos iniciais
 
 ### Pré-requisitos 
