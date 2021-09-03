@@ -4,6 +4,15 @@
 3- Utilizar as annotations nas classes que serão mapeadas para uso do Hibernate. <br>
 4- Configurar o entityManager (no arquivo ExecutionPart1). <br>
 
+### Requisitos 
+- Java Development Kit (JDK) – 1.8 ou superior.
+- IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra).
+- Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven).
+- <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">MySQL (Passos para instalação estão no arquivo "DatabaseInstructions).</a>
+
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## Entendendo o JPA
 Entre os principais artefatos do JPA, podem ser destacados:
 - Anotações `@Entity` - indica a aplicação que os objetos da classe especificada serão persistidos no banco de dados. Também podem ser usadas outras anotações para auxiliar no mapeamento de classes, tais como: @id, @column, @table, @OneToMany e @ManyToOne. 
@@ -14,15 +23,6 @@ Entre os principais artefatos do JPA, podem ser destacados:
 - `@Id` é obrigatório especificar ao menos uma ID para a entidade. 
 
 ## Passos iniciais
-### Requisitos 
-- Java Development Kit (JDK) – 1.8 ou superior.
-- IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra).
-- Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven).
-- <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">MySQL (Passos para instalação estão no arquivo "DatabaseInstructions).</a>
-
-## Licença
-Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
-
 ### Instalação
 Com os pré requisitos instalados, basta baixar esse projeto no seu IDE (através do comando "git clone") e seguir os passos que estão no arquivo <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">DatabaseInstructions</a> para instanciar os bancos de dados, tabelas e alguns registros para teste.
 
