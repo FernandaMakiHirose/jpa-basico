@@ -14,12 +14,14 @@ Entre os principais artefatos do JPA, podem ser destacados:
 - `@Id` é obrigatório especificar ao menos uma ID para a entidade. 
 
 ## Passos iniciais
-
-### Pré-requisitos 
+### Requisitos 
 - Java Development Kit (JDK) – 1.8 ou superior.
 - IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra).
 - Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven).
 - <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">MySQL (Passos para instalação estão no arquivo "DatabaseInstructions).</a>
+
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
 
 ### Instalação
 Com os pré requisitos instalados, basta baixar esse projeto no seu IDE (através do comando "git clone") e seguir os passos que estão no arquivo <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">DatabaseInstructions</a> para instanciar os bancos de dados, tabelas e alguns registros para teste.
@@ -30,8 +32,3 @@ Basta rodar a função "main" da classe compilada de uma das seguintes classes:
 - <a href="https://github.com/FernandaMakiHirose/jpa-basico/blob/main/src/main/java/part1/ExecutionPart1.java">ExecutionPart1.java.</a>
 - <a href="https://github.com/FernandaMakiHirose/jpa-basico/blob/main/src/main/java/part2/ExecutionPart2.java">ExecutionPart2.java.</a>
 - <a href="https://github.com/FernandaMakiHirose/jpa-basico/blob/main/src/main/java/part3/ExecutionPart3.java">ExecutionPart3.java.</a>
-
-## Sobre a Autora
-Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
-
-[![Linkedin Badge](https://img.shields.io/badge/-Fernanda_Maki_Hirose-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernanda-maki-hirose-801117208/)](https://www.linkedin.com/in/fernanda-maki-hirose-801117208/)  [![Gmail Badge](https://img.shields.io/badge/-femahi2020@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:femahi2020@gmail.com)](mailto:femahi2020@gmail.com)
