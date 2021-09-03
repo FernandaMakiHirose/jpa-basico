@@ -4,7 +4,7 @@
 3- Utilizar as annotations nas classes que serão mapeadas para uso do Hibernate. <br>
 4- Configurar o entityManager (no arquivo ExecutionPart1). <br>
 
-### Requisitos 
+## Requisitos 
 - Java Development Kit (JDK) – 1.8 ou superior.
 - IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra).
 - Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven).
